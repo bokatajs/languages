@@ -1,0 +1,44 @@
+{
+  "name": "@bokata/languages",
+  "version": "1.0.1",
+  "description": "Languages",
+  "author": {
+    "email": "jseijas@gmail.com",
+    "name": "Jesus Seijas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bokatajs/bokata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bokatajs/bokata/issues"
+  },
+  "maintainers": [
+    {
+      "email": "jseijas@gmail.com",
+      "name": "Jesus Seijas"
+    }
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lintfix": "eslint --fix .",
+    "test": "eslint --fix . && node --test"
+  },
+  "dependencies": {
+    "@bokata/base": "^1.0.1",
+    "kuromoji": "^0.1.2"
+  },
+  "devDependencies": {
+    "@bokata/testing": "^1.0.0",
+    "@eslint/js": "^9.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
